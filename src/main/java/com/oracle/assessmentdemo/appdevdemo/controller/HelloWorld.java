@@ -25,7 +25,7 @@ import reactor.core.publisher.Mono;
 public class HelloWorld {
 
 	
-	@GetMapping("/")
+	@GetMapping("/hello")
 	public String hello() {
 
 		return "Hello From SpringBoot";
