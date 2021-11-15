@@ -34,4 +34,4 @@ jobs:
           app-name: 'springbootscheduler'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0FE2D007D0FC41E597229182B9D92C3F }}
-          package: '*.jar'
+          package: 'appdevdemo-0.0.1-SNAPSHOT.jar'
